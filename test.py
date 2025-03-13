@@ -23,6 +23,7 @@ session.headers.update({
     "DNT": "1",
 })
 
+page_url = "https://www.autotrader.co.za/trucks-for-sale"
 response = session.get(page_url)
 soup = BeautifulSoup(response.content, 'html.parser')
 

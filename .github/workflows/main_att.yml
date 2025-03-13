@@ -31,4 +31,4 @@ jobs:
 
       - name: Run ATT_Ext
         run: |
-          python ATT_ext.py
+          python test.py

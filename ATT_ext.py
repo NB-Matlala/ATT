@@ -141,7 +141,7 @@ def main():
 
     # Start threads
     threads = []
-    for _ in range(10):  # Adjust number of threads as needed
+    for _ in range(5):  # Adjust number of threads as needed
         t = threading.Thread(target=worker)
         t.start()
         threads.append(t)

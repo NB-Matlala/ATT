@@ -205,6 +205,7 @@ def save_to_csv():
     print("Data extraction complete! CSV files saved as 'stored_links_batch1.csv' and 'stored_links_batch2.csv'.")
 
 if __name__ == "__main__":
+    print("Running. . .")
     main()
 
 

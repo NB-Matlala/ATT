@@ -114,17 +114,17 @@ def worker():
 def main():
     commercial_types = {
         "trucks-for-sale": "Trucks",
-        "tractors-for-sale": "Tractors",
-        "trailers-for-sale": "Trailers",
-        "attachments-for-sale": "Attachments",
-        "buses-for-sale": "Buses",
-        "cranes-for-sale": "Cranes",
-        "dozers-for-sale": "Dozers",
-        "excavators-for-sale": "Excavators",
-        "forklifts-for-sale": "Forklifts",
-        "graders-for-sale": "Graders",
-        "loaders-for-sale": "Loaders",
-        "rollers-for-sale": "Rollers",
+        "tractors-for-sale": "Tractors"
+        # "trailers-for-sale": "Trailers",
+        # "attachments-for-sale": "Attachments",
+        # "buses-for-sale": "Buses",
+        # "cranes-for-sale": "Cranes",
+        # "dozers-for-sale": "Dozers",
+        # "excavators-for-sale": "Excavators",
+        # "forklifts-for-sale": "Forklifts",
+        # "graders-for-sale": "Graders",
+        # "loaders-for-sale": "Loaders",
+        # "rollers-for-sale": "Rollers",
     }
 
     # Get last page numbers for each category

@@ -24,7 +24,7 @@ session.headers.update({
 })
 
 def main():
-    page_url = "https://www.autotrader.co.za/trucks-for-sale"
+    page_url = f"{base_url}/trucks-for-sale"
     response = session.get(page_url)
     soup = BeautifulSoup(response.content, 'html.parser')
 

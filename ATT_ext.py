@@ -13,13 +13,13 @@ base_url = os.getenv("BASE_URL")
 con_str = os.getenv("CON_STR")
 # Global session with headers
 session = HTMLSession()
-session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://www.google.com",
-    "Accept-Encoding": "gzip, deflate, br",
-    "DNT": "1",
-})
+# session.headers.update({
+#     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+#     "Accept-Language": "en-US,en;q=0.9",
+#     "Referer": "https://www.google.com",
+#     "Accept-Encoding": "gzip, deflate, br",
+#     "DNT": "1",
+# })
 
 
 # Queue for multithreading

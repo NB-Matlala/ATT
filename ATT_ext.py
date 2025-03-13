@@ -9,7 +9,8 @@ from datetime import datetime, timedelta
 from azure.storage.blob import BlobClient
 import os
 
-base_url = os.getenv("BASE_URL")
+base_url = "https://www.autotrader.co.za" 
+# os.getenv("BASE_URL")
 con_str = os.getenv("CON_STR")
 # Global session with headers
 session = HTMLSession()
